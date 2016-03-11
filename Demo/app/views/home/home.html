@@ -1,0 +1,25 @@
+<div layout-fill class="default-layout" layout="column">
+    <!-- MAIN TOOLBAR -->
+    <md-toolbar class="md-whiteframe-z1" flex="initial">
+        <div class="md-toolbar-tools">
+            <h2>
+                <span>Directivas en AngularJS - Workshop</span>
+            </h2>
+        </div>
+    </md-toolbar>
+    <!-- CONTENT -->
+    <md-content ui-view>
+        <!-- MENU -->
+        <md-list>
+            <md-subheader class="md-no-sticky">Super Compendio de MEGA Ejemplos ^^</md-subheader>
+            <md-list-item ng-repeat="item in model.menu" class="noright" ui-sref="{{item.url}}">
+                <img ng-src="views/home/css/images/{{ item.picture }}" class="md-avatar" />
+                <p>Directivas: <strong>{{ item.label }}</strong></p>
+                <md-button class="md-secondary md-icon-button" aria-label="go" ui-sref="{{item.url}}">
+                    <md-icon md-svg-icon="hardware:keyboard_arrow_right"></md-icon>
+                </md-button>
+            </md-list-item>
+        </md-list>
+        <!-- MENU -->
+    </md-content>
+</div>

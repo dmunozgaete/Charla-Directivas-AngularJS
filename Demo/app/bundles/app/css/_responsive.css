@@ -1,0 +1,15 @@
+/* RESPONSIVE HELPER CLASES */
+.show-on-responsive {
+  display: none; }
+
+@media only screen and (max-width: 600px) {
+  .hide-on-responsive {
+    display: none !important; }
+
+  .show-on-responsive {
+    display: block !important; } }
+/*********************
+ RESPONSIVE BREAKPOINTS
+*********************/
+
+/*# sourceMappingURL=_responsive.css.map */

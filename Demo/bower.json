@@ -1,0 +1,24 @@
+{
+  "name": "Widul",
+  "description": "Presentación casi interactiva ^^",
+  "version": "1.0.0",
+  "license": "Apache 2.0",
+  "private": true,
+  "dependencies": {
+    "angular-moment": "~0.10.1",
+    "angular-gale": "dmunozgaete/angular-gale#master",
+    "angular-gale-material": "dmunozgaete/angular-gale-material#master",
+    "angular-material": "~1.1.0"
+  },
+  "resolutions": {
+    "angular": "^1.4.8",
+    "angular-moment": "0.10.1",
+    "angular-gale": "master",
+    "angular-animate": "^1.3.0 || >1.4.0-beta.0",
+    "angular-material": "~1.1.0"
+  },
+  "main": [
+    ""
+  ],
+  "devDependencies": {}
+}

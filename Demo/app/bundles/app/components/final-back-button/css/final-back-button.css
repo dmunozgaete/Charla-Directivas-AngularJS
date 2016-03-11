@@ -1,0 +1,25 @@
+/* RESPONSIVE HELPER CLASES */
+.show-on-responsive {
+  display: none; }
+
+@media only screen and (max-width: 600px) {
+  .hide-on-responsive {
+    display: none !important; }
+
+  .show-on-responsive {
+    display: block !important; } }
+/*********************
+ RESPONSIVE BREAKPOINTS
+*********************/
+final-back-button {
+  position: fixed;
+  z-index: 9;
+  top: 34px;
+  right: 16px; }
+  final-back-button .md-button.md-icon-button {
+    padding: 0px; }
+    final-back-button .md-button.md-icon-button md-icon {
+      width: 36px;
+      height: 36px; }
+
+/*# sourceMappingURL=final-back-button.css.map */

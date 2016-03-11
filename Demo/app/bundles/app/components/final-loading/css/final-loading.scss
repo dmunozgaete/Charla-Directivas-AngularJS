@@ -1,0 +1,65 @@
+@import "../../../css/flexbox";
+@import "../../../css/responsive";
+
+final-loading {
+    @include flexbox();
+    @include flex-direction(column);
+    @include justify-content(center);
+    @include align-items(center);
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    .image {
+        img {
+            height: 4em;
+            width: 4em;
+            margin-right: 1em;
+        }
+    }
+    .message {
+        font-size: 1.2em;
+        opacity: 0.5;
+        text-align: left;
+    }
+    .legend {
+        opacity: 0.4;
+        margin-top: 0.5em;
+        font-size: 0.9em;
+        line-height: 1em;
+        text-align: left;
+    }
+}
+
+
+/* 
+    RESPONSIVE 
+*/
+
+@include breakpoint(mobile) {
+    final-loading {
+        @include justify-content(flex-start);
+        margin-top: 1em;
+        > div {
+            @include flex-direction(column !important);
+            @include justify-content(center);
+            @include align-items(center);
+            > div {
+                &:first-child {
+                    img {
+                        height: 5em;
+                        width: 5em;
+                        margin-right: 0;
+                        margin-bottom: 1em;
+                    }
+                }
+                &:last-child {
+                    font-size: 0.9em;
+                    @include align-items(center);
+                    > div.legend {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

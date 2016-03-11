@@ -1,0 +1,11 @@
+@import "../../../css/responsive";
+@import "../../../css/flexbox";
+
+md-dialog.final-loading-dialog {
+    height: 200px;
+    width: 450px;
+    > div {
+        height: 100%;
+        color: #000;
+    }
+}

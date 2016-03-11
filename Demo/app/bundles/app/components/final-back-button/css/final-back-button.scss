@@ -1,0 +1,17 @@
+@import "../../../css/flexbox";
+@import "../../../css/responsive";
+final-back-button {
+    position: fixed;
+    z-index: 9;
+    top: 34px;
+    right: 16px;
+    .md-button {
+        &.md-icon-button {
+            padding: 0px;
+            md-icon {
+                width: 36px;
+                height: 36px;
+            }
+        }
+    }
+}
