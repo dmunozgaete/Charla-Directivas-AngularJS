@@ -20,7 +20,7 @@ mothership$: grunt lift
 
 ##Resultado ;)!
 
-![servidor web](http://giphy.com/gifs/xT9DPOdKveUgthyF8c)
+![servidor web](https://cloud.githubusercontent.com/assets/5934807/13705079/ef390418-e77d-11e5-8a3c-8894c5a7a7d7.gif)
 
 
 
