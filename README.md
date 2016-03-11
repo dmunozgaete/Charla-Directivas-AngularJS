@@ -5,8 +5,8 @@ Charlas sobre AngularJS (Directivas) - App de Ejemplos Vistos
 ##Instalación base (grunt y bower), deben tener npm (nodeJS) instalado
 
 ```shell
-mothership$: npm install grunt-cli
-mothership$: npm install bower
+mothership$: sudo npm install grunt-cli -g
+mothership$: sudo npm install bower -g
 ```
 ##Para inicar el servidor web
 
